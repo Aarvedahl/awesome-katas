@@ -25,11 +25,18 @@ public class RomanNumeralsTest {
         assertEquals("I", romanNumerals.makeIMarks(1));
         assertEquals("II", romanNumerals.makeIMarks(2));
         assertEquals("III", romanNumerals.makeIMarks(3));
-
     }
 
-   /* @Test
+   @Test
     public void makeVMarks() {
-        assertEquals("V", romanNumerals.makeVMarks(5));
-    } */
+        assertEquals("V", romanNumerals.makeIMarks(5));
+        assertEquals("VIII", romanNumerals.makeIMarks(8));
+    }
+
+    @Test
+    public void makeXMarks() {
+        assertEquals("X", romanNumerals.makeIMarks(10));
+        assertEquals("XV", romanNumerals.makeIMarks(15));
+        assertEquals("XVIII", romanNumerals.makeIMarks(18));
+    }
 }

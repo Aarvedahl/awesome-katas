@@ -11,12 +11,16 @@ public class RomanNumerals {
     private void loadHashMap() {
         numerals.put(1, "I");
         numerals.put(5, "V");
+        numerals.put(10, "X");
     }
 
     public String makeIMarks(int number) {
         String roman = "";
-        while(number > 0) {
-            for(int i= number; i>= 0; i--) {
+        while(number >= 1) {
+            for(int i= number; i>=1; i--) {
+                if(number <= 0) {
+                    break;
+                }
                 if(numerals.containsKey(i)) {
                     roman += (String) numerals.get(i);
                     number -= i;
