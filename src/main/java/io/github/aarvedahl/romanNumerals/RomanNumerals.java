@@ -1,54 +1,27 @@
 package io.github.aarvedahl.romanNumerals;
 
-import java.util.HashMap;
-
 public class RomanNumerals {
-    HashMap numerals = new HashMap();
-    public RomanNumerals() {
-        loadHashMap();
-    }
 
-    private void loadHashMap() {
-        numerals.put(1, "I");
-        numerals.put(5, "V");
-        numerals.put(10, "X");
-    }
+    private enum Digit {
+        X(10),
+        IX(9),
+        V(5),
+        IV(4),
+        I(1);
 
-    public String makeIMarks(int number) {
-        String roman = "";
-        while(number >= 1) {
-            for(int i= number; i>=1; i--) {
-                if(number <= 0) {
-                    break;
-                }
-                if(numerals.containsKey(i)) {
-                    roman += (String) numerals.get(i);
-                    number -= i;
-                }
-            }
-            /**
-             * Hitta det numret som har den högsta key som är närmast till det numret vi matar in.
-             * sedan minska itteratorn med det numret vi hittade.
-             */
+        private final int value;
+        Digit(int value) {
+            this.value = value;
         }
-        return roman;
     }
 
-    private String findKey(int number) {
-
+    public String roman(int arabic) {
+       for(Digit digit: Digit.values()) {
+           if(arabic >= digit.value) {
+               return digit.name() + roman(arabic - digit.value);
+           }
+       }
        return "";
     }
-    /*
-    public String makeIMarks(int i) {
-        String roman = "";
-        while(i > 0) {
-            roman += "I";
-            i--;
-        }
-        return roman;
-    }
 
-    public String makeVMarks(int i) {
-        return "V";
-    } */
 }

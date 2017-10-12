@@ -21,22 +21,28 @@ public class RomanNumeralsTest {
     }
 
     @Test
+    public void makeIVMarks() {
+        assertEquals("IV", romanNumerals.roman(4));
+    }
+    @Test
     public void makeIMarks() {
-        assertEquals("I", romanNumerals.makeIMarks(1));
-        assertEquals("II", romanNumerals.makeIMarks(2));
-        assertEquals("III", romanNumerals.makeIMarks(3));
+        assertEquals("I", romanNumerals.roman(1));
+        assertEquals("II", romanNumerals.roman(2));
+        assertEquals("III", romanNumerals.roman(3));
+
+
     }
 
    @Test
     public void makeVMarks() {
-        assertEquals("V", romanNumerals.makeIMarks(5));
-        assertEquals("VIII", romanNumerals.makeIMarks(8));
+        assertEquals("V", romanNumerals.roman(5));
+        assertEquals("VIII", romanNumerals.roman(8));
     }
 
     @Test
     public void makeXMarks() {
-        assertEquals("X", romanNumerals.makeIMarks(10));
-        assertEquals("XV", romanNumerals.makeIMarks(15));
-        assertEquals("XVIII", romanNumerals.makeIMarks(18));
+        assertEquals("X", romanNumerals.roman(10));
+        assertEquals("XV", romanNumerals.roman(15));
+        assertEquals("XVIII", romanNumerals.roman(18));
     }
 }
