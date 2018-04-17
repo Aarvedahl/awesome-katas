@@ -25,4 +25,7 @@ Sample Input                Sample output
 public class FourThought {
 // Kanske en hashmap med fördefinerade funktioner ?
 
+    public String writeSolution(int number) {
+        return "4 + 4 + 4 + 4";
+    }
 }
