@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71a2c2b-37a3-4e9c-a409-8a9e6d4bf3d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,29 +14,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FourThought.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FourThought.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="15" column="2" selection-start-line="15" selection-end-line="15" selection-end-column="2" />
               <folding>
                 <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourThoughtTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FourThoughtTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +64,8 @@
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ProblemA.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourPartTwo/FourPartTwo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java" />
       </list>
     </option>
   </component>
@@ -187,8 +182,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,6 +369,7 @@
       <workItem from="1507829999179" duration="639000" />
       <workItem from="1523905492799" duration="112000" />
       <workItem from="1523986240811" duration="276000" />
+      <workItem from="1524071283654" duration="713000" />
     </task>
     <servers />
   </component>
@@ -410,14 +406,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12662000" />
+    <option name="totallyTimeSpent" value="13375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32991803" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -444,6 +440,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32991803" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,6 +455,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ADifferentProblem/ADifferentProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -485,7 +503,7 @@
           <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -504,8 +522,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/romanNumerals/RomanNumerals.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -514,9 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/romanNumerals/RomanNumerals.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -524,28 +543,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/romanNumerals/RomanNumerals.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/romanNumerals/RomanNumerals.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/romanNumerals/RomanNumerals.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,9 +570,6 @@
           <caret line="37" column="56" lean-forward="true" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/romanNumerals/RomanNumerals.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -666,32 +666,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="33" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="2" selection-start-line="15" selection-end-line="15" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="306">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
           </folding>
         </state>
       </provider>

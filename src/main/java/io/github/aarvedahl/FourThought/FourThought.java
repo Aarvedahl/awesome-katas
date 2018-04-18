@@ -22,10 +22,26 @@ Sample Input                Sample output
  */
 
 
+import java.util.HashMap;
+
 public class FourThought {
 // Kanske en hashmap med fördefinerade funktioner ?
 
+    HashMap<String, Integer> map = new HashMap<>();
+
+    private void addToMap() {
+        map.put("4 + 4", 4 + 4);
+        map.put("4 / 4", 4 / 4);
+        map.put("4 * 4", 4 * 4);
+        map.put("4 - 4", 4 - 4);
+    }
+
     public String writeSolution(int number) {
+        int sum = 0;
         return "4 + 4 + 4 + 4";
+    }
+
+    public FourThought{
+        addToMap();
     }
 }
