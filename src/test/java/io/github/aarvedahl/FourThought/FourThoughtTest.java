@@ -16,6 +16,7 @@ public class FourThoughtTest {
     @Test
     public void writeSolution() {
         assertEquals("4 + 4 + 4 + 4", fourThought.writeSolution(16));
+       // assertTrue(d.getFormType().equals("string1") ||  d.getFormType().equals("string2"));
     }
 
     @Test

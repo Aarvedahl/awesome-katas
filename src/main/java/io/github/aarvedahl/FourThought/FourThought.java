@@ -14,11 +14,12 @@ Sample Input                Sample output
 
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class FourThought {
-// Kanske en hashmap med fördefinerade funktioner ?
 
-    HashMap<Integer, String> map = new HashMap<>();
+    Map<Integer, String> map = new HashMap<>();
 
     private void addToMap() {
         map.put(4 + 4, "4 + 4");
@@ -27,10 +28,11 @@ public class FourThought {
         map.put(4 - 4, "4 - 4");
     }
 
-    // Få tag på 4 + 4 och se hur långt vi är ifrån svaret.
-    //  Loopa igeom hashmapen två gånger främst nycklarna och se om det matchar den siffran vi tar emot.
-    // Om det gör det, skriv då ut strängen.
     public String writeSolution(int number) {
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+        }
+
         String sumString = "";
         for(int key : map.keySet()) {
             for(int key2 : map.keySet()) {
@@ -40,11 +42,6 @@ public class FourThought {
                 } else if(key - key2 == number) {
                     sumString = map.get(key) + " - " + map.get(key2);
                     return sumString;
-                } else if(key * key2 == number) {
-                    sumString = map.get(key) + " * " + map.get(key2);
-                    return sumString;
-          //      } else if(key / key2 == number) {
-          //          sumString = map.get(key) + " / " + map.get(key2);
                 } else {
                     sumString = "no solution";
                 }
