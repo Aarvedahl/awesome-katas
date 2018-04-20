@@ -27,7 +27,6 @@ The fifth line of input contains an integer 0, 1, 2, or 3 that denotes a left, u
 public class NumGame {
 
     // Antagligen så ska vi ta emot en sträng som input och modifiera den??
-    
     public static void main(String[] args) {
         NumGame numGame = new NumGame();
     }
@@ -35,11 +34,11 @@ public class NumGame {
     List<List<Integer>> listOfLists = new ArrayList<>();
 
     public NumGame() {
-        initList();
+        initList(listOfLists);
         playGame();
     }
 
-    private void initList(){
+    private void initList(List<List<Integer>> listOfLists){
         for(int i=0; i <4; i++) {
             listOfLists.add(new ArrayList<>());
         }
@@ -65,10 +64,9 @@ public class NumGame {
         while (addToLists(sc.nextInt())) {
         }
         int move = sc.nextInt();
+        performMove(move, listOfLists);
         if(move == 0) {
             // Move left
-            List<List<Integer>> finalList = performMove(0);
-            writeOutput(finalList);
         } else if (move == 1) {
             // Move up
         } else if (move ==2) {
@@ -81,9 +79,25 @@ public class NumGame {
     private void writeOutput(List<List<Integer>> finalList) {
     }
 
+    // Alternativt en hashmap
     // Skapa en ny 2d array där man lägger till det slutgiltliga svaret
-    private List<List<Integer>> performMove(int i) {
+    private List<List<Integer>> performMove(int move, List<List<Integer>> listOfLists) {
         List<List<Integer>> lists = new ArrayList<>();
-    
+
+        for(List<Integer> list: listOfLists) {
+            for(int num: list) {
+                if(move == 0) {
+                    if(num == list.get(num+1)) {
+
+                    }
+                }
+                for(int num2: list) {
+
+                }
+            }
+        }
+
+
+        return lists;
     }
 }
