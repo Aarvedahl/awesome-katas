@@ -13,13 +13,13 @@ Sample Input                Sample output
  */
 
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.TreeMap;
+
 
 public class FourThought {
 
-    Map<Integer, String> map = new HashMap<>();
+    Map<Integer, String> map = new LinkedHashMap<>();
 
     private void addToMap() {
         map.put(4 + 4, "4 + 4");
@@ -29,10 +29,6 @@ public class FourThought {
     }
 
     public String writeSolution(int number) {
-        for (Map.Entry<Integer, String> entry : map.entrySet()) {
-            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
-        }
-
         String sumString = "";
         for(int key : map.keySet()) {
             for(int key2 : map.keySet()) {

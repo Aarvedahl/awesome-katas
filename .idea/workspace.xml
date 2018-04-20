@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71a2c2b-37a3-4e9c-a409-8a9e6d4bf3d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java" afterDir="false" />
@@ -16,25 +18,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FourThought.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
+      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="666">
+              <caret line="83" column="71" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourThoughtTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java">
+      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="468">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +75,10 @@
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ProblemA.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourPartTwo/FourPartTwo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" />
       </list>
     </option>
   </component>
@@ -97,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,7 +149,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aarvedahl" type="462c0819:PsiDirectoryNode" />
-              <item name="leapYear" type="462c0819:PsiDirectoryNode" />
+              <item name="NumGame" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awesome-katas" type="b2602c69:ProjectViewProjectNode" />
@@ -177,13 +188,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aarvedahl" type="462c0819:PsiDirectoryNode" />
-              <item name="leapYear" type="462c0819:PsiDirectoryNode" />
+              <item name="NumGame" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -209,9 +221,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FourThoughtTest">
+  <component name="RunManager" selected="Application.NumGame">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="NumGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.NumGame.NumGame" />
+      <module name="awesome--katas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.aarvedahl.NumGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -251,6 +274,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="io.github.aarvedahl.leapYear" />
       <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.leapYear.LeapYearTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="NumGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="awesome--katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.aarvedahl.NumGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.github.aarvedahl.NumGame" />
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.NumGame.NumGameTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -340,9 +386,13 @@
       <item itemvalue="JUnit.LeapYearTest" />
       <item itemvalue="JUnit.RomanNumeralsTest" />
       <item itemvalue="JUnit.FourThoughtTest" />
+      <item itemvalue="JUnit.NumGameTest" />
+      <item itemvalue="Application.NumGame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumGame" />
+        <item itemvalue="JUnit.NumGameTest" />
         <item itemvalue="JUnit.FourThoughtTest" />
         <item itemvalue="JUnit.RomanNumeralsTest" />
         <item itemvalue="JUnit.LeapYearTest" />
@@ -375,50 +425,51 @@
       <workItem from="1524231565152" duration="232000" />
       <workItem from="1524232081225" duration="11000" />
       <workItem from="1524232789757" duration="484000" />
+      <workItem from="1524236127717" duration="3012000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FourThoughtTest - 2018.04.19 at 20h 02m 12s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FourThoughtTest - 2018.04.19 at 20h 02m 13s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FourThoughtTest - 2018.04.19 at 20h 02m 26s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FourThoughtTest - 2018.04.20 at 15h 39m 55s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FourThoughtTest - 2018.04.20 at 15h 41m 07s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FourThoughtTest - 2018.04.20 at 15h 41m 46s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FourThoughtTest - 2018.04.20 at 16h 00m 45s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FourThoughtTest - 2018.04.20 at 16h 01m 18s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FourThoughtTest - 2018.04.20 at 16h 03m 34s.xml">
       <configuration name="FourThoughtTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FourThoughtTest - 2018.04.20 at 16h 05m 02s.xml">
       <configuration name="FourThoughtTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FourThoughtTest - 2018.04.20 at 16h 57m 35s.xml">
+      <configuration name="FourThoughtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FourThoughtTest - 2018.04.20 at 16h 59m 05s.xml">
+      <configuration name="FourThoughtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FourThoughtTest - 2018.04.20 at 16h 59m 55s.xml">
+      <configuration name="FourThoughtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.04.20 at 17h 18m 11s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.04.20 at 17h 18m 32s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.04.20 at 17h 18m 49s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.04.20 at 17h 19m 19s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.04.20 at 17h 21m 08s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17105000" />
+    <option name="totallyTimeSpent" value="20117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32991803" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -455,10 +506,34 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -475,6 +550,10 @@
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -492,6 +571,10 @@
           <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -509,6 +592,10 @@
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -526,6 +613,10 @@
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -543,6 +634,10 @@
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,22 +831,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="144">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="5" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="83" column="71" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
           </folding>
         </state>
       </provider>
