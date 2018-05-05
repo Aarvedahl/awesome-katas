@@ -16,13 +16,11 @@ public class NumGameTest {
 
     @Test
     public void init4Lists() {
-        assertEquals(4, numGame.listOfLists.size());
+        assertEquals(4, numGame.numbers.length);
+        assertEquals(4, numGame.numbers[1].length);
+        assertEquals(4, numGame.numbers[2].length);
+        assertEquals(4, numGame.numbers[3].length);
+        assertEquals(4, numGame.numbers[4].length);
     }
-
-    @Test
-    public void emptyLists() {
-        assertEquals(0, numGame.listOfLists.get(0).size());
-    }
-
-
+    
 }

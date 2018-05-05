@@ -26,45 +26,33 @@ The fifth line of input contains an integer 0, 1, 2, or 3 that denotes a left, u
 
 public class NumGame {
 
-    // Antagligen så ska vi ta emot en sträng som input och modifiera den??
+    Scanner sc = new Scanner(System.in);
+
+
     public static void main(String[] args) {
         NumGame numGame = new NumGame();
     }
 
-    List<List<Integer>> listOfLists = new ArrayList<>();
-
+    int [] [] numbers = new int [4][4];
     public NumGame() {
-        initList(listOfLists);
-        playGame();
+        //initList();
+      //  playGame();
     }
 
-    private void initList(List<List<Integer>> listOfLists){
+    private void initList(){
         for(int i=0; i <4; i++) {
-            listOfLists.add(new ArrayList<>());
+            for(int j=0; j<4; j++) {
+                numbers[i][j] = sc.nextInt();
+            }
         }
     }
 
-    private boolean addToLists(int num) {
-        if(listOfLists.get(0).size() < 4) {
-            listOfLists.get(0).add(num);
-        } else if (listOfLists.get(1).size() < 4) {
-            listOfLists.get(1).add(num);
-        } else if (listOfLists.get(2).size() < 4) {
-            listOfLists.get(2).add(num);
-        } else if (listOfLists.get(3).size() < 4) {
-            listOfLists.get(3).add(num);
-        } else {
-            return false;
-        }
-        return true;
-    }
+
 
     public void playGame(){
-        Scanner sc = new Scanner(System.in);
-        while (addToLists(sc.nextInt())) {
-        }
+
         int move = sc.nextInt();
-        performMove(move, listOfLists);
+        performMove(move, numbers);
         if(move == 0) {
             // Move left
         } else if (move == 1) {
@@ -76,20 +64,20 @@ public class NumGame {
         }
     }
 
-    private void writeOutput(List<List<Integer>> finalList) {
+    private void writeOutput(int[][] finalList) {
     }
 
     // Alternativt en hashmap
     // Skapa en ny 2d array där man lägger till det slutgiltliga svaret
-    private List<List<Integer>> performMove(int move, List<List<Integer>> listOfLists) {
+    private List<List<Integer>> performMove(int move, int[][] numbers) {
         List<List<Integer>> lists = new ArrayList<>();
 
-        for(List<Integer> list: listOfLists) {
+        for(int[] list: numbers) {
             for(int num: list) {
                 if(move == 0) {
-                    if(num == list.get(num+1)) {
+                  //  if(num == list.get(num+1)) {
 
-                    }
+                   // }
                 }
                 for(int num2: list) {
 
