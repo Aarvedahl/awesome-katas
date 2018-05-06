@@ -33,31 +33,31 @@ public class NumGame {
         NumGame numGame = new NumGame();
     }
 
-    int [] [] numbers = new int [4][4];
+    int[][] numbers = new int[4][4];
+
     public NumGame() {
         //initList();
-      //  playGame();
+        //  playGame();
     }
 
-    private void initList(){
-        for(int i=0; i <4; i++) {
-            for(int j=0; j<4; j++) {
+    private void initList() {
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
                 numbers[i][j] = sc.nextInt();
             }
         }
     }
 
 
-
-    public void playGame(){
+    public void playGame() {
 
         int move = sc.nextInt();
         performMove(move, numbers);
-        if(move == 0) {
+        if (move == 0) {
             // Move left
         } else if (move == 1) {
             // Move up
-        } else if (move ==2) {
+        } else if (move == 2) {
             // Move right
         } else if (move == 3) {
             // Move down
@@ -67,25 +67,33 @@ public class NumGame {
     private void writeOutput(int[][] finalList) {
     }
 
-    // Alternativt en hashmap
-    // Skapa en ny 2d array där man lägger till det slutgiltliga svaret
-    private List<List<Integer>> performMove(int move, int[][] numbers) {
-        List<List<Integer>> lists = new ArrayList<>();
 
-        for(int[] list: numbers) {
-            for(int num: list) {
-                if(move == 0) {
-                  //  if(num == list.get(num+1)) {
-
-                   // }
-                }
-                for(int num2: list) {
-
+    public int[][] performMove(int move, int[][] numbers) {
+        int[][] result = new int[4][4];
+        if (move == 0) {
+            for (int i = numbers.length - 1; i >= 0; i--) {
+                for (int j = numbers[i].length - 1; j >= 0; j--) {
+                    if (j > 0) {
+                        if (numbers[i][j - 1] == 0) {
+                            numbers[i][j - 1] = numbers[i][j];
+                            numbers[i][j] = 0;
+                        } else if (numbers[i][j - 1] == numbers[i][j]) {
+                            numbers[i][j - 1] += numbers[i][j];
+                            numbers[i][j] = 0;
+                        }
+                    }
                 }
             }
         }
+      //  print();
+        return numbers;
+    }
 
-
-        return lists;
+    public void print() {
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            for (int j = numbers[i].length - 1; j >= 0; j--) {
+                System.out.println(numbers[i][j]);
+            }
+        }
     }
 }

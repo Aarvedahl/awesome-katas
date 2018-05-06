@@ -16,24 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-              <folding>
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="536">
+              <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="504">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -76,8 +72,8 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa2536.38984/sample.in" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix2.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" />
       </list>
     </option>
   </component>
@@ -108,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +182,7 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumGameTest.init4Lists">
+  <component name="RunManager" selected="JUnit.NumGameTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -248,17 +244,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StackingCups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.StackingCups" />
-      <module name="awesome--katas" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.aarvedahl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Subway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Subway" />
       <module name="awesome--katas" />
@@ -272,6 +257,29 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="NumGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="awesome--katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.aarvedahl.NumGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.github.aarvedahl.NumGame" />
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.NumGame.NumGameTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="NumGameTest.init4Lists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="awesome--katas" />
@@ -349,18 +357,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.NumGame" />
-      <item itemvalue="Application.StackingCups" />
       <item itemvalue="Application.Subway" />
       <item itemvalue="Application.Matrix" />
       <item itemvalue="JUnit.NumGameTest.init4Lists" />
+      <item itemvalue="JUnit.NumGameTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumGameTest" />
         <item itemvalue="JUnit.NumGameTest.init4Lists" />
         <item itemvalue="Application.NumGame" />
         <item itemvalue="Application.Matrix" />
         <item itemvalue="Application.Subway" />
-        <item itemvalue="Application.StackingCups" />
       </list>
     </recent_temporary>
   </component>
@@ -397,44 +405,46 @@
       <workItem from="1524398653199" duration="11000" />
       <workItem from="1524413502602" duration="641000" />
       <workItem from="1525521131042" duration="74000" />
-      <workItem from="1525538874087" duration="525000" />
+      <workItem from="1525538874087" duration="1139000" />
+      <workItem from="1525605021590" duration="1708000" />
+      <workItem from="1525618682140" duration="1202000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FourThoughtTest - 2018.04.20 at 16h 57m 35s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FourThoughtTest - 2018.04.20 at 16h 59m 05s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FourThoughtTest - 2018.04.20 at 16h 59m 55s.xml">
-      <configuration name="FourThoughtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumGameTest - 2018.04.20 at 17h 18m 11s.xml">
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 29m 34s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.04.20 at 17h 18m 32s.xml">
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 29m 52s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.04.20 at 17h 18m 49s.xml">
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 31m 40s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.04.20 at 17h 19m 19s.xml">
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 32m 41s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.04.20 at 17h 21m 08s.xml">
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 32m 43s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest_init4Lists - 2018.05.05 at 18h 55m 07s.xml">
-      <configuration name="NumGameTest.init4Lists" configurationId="JUnit" />
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 35m 33s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest_init4Lists - 2018.05.05 at 18h 55m 35s.xml">
-      <configuration name="NumGameTest.init4Lists" configurationId="JUnit" />
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 36m 49s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 37m 09s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 37m 46s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.05.06 at 13h 38m 03s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36828000" />
+    <option name="totallyTimeSpent" value="40352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -442,7 +452,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -450,7 +459,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3305174" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3305174" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -463,13 +472,14 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872068" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39809927" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,27 +490,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Subway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="5" selection-start-line="2" selection-start-column="2" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/StackingCups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -519,9 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,9 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,21 +811,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding>
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="504">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
         </state>
       </provider>
     </entry>
