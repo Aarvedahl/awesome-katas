@@ -16,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+            <state relative-caret-position="461">
+              <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -72,8 +72,8 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa2536.38984/sample.in" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix2.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" />
       </list>
     </option>
   </component>
@@ -104,6 +104,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,8 +182,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -407,44 +407,47 @@
       <workItem from="1525521131042" duration="74000" />
       <workItem from="1525538874087" duration="1139000" />
       <workItem from="1525605021590" duration="1708000" />
-      <workItem from="1525618682140" duration="1202000" />
+      <workItem from="1525618682140" duration="4971000" />
+      <workItem from="1525629322569" duration="121000" />
+      <workItem from="1525701240383" duration="254000" />
+      <workItem from="1525706321606" duration="1814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 29m 34s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 17h 52m 28s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 29m 52s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 17h 52m 48s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 31m 40s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 17h 53m 00s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 32m 41s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 17h 53m 51s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 32m 43s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 17h 54m 10s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 35m 33s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 17h 55m 08s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 36m 49s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 07m 05s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 37m 09s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 07m 34s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 37m 46s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 14m 14s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.06 at 13h 38m 03s.xml">
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 14m 45s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40352000" />
+    <option name="totallyTimeSpent" value="46310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -452,6 +455,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -459,7 +463,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3305174" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3305174" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -473,13 +477,12 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39809927" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +493,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -825,17 +828,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="461">
+          <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+        <state relative-caret-position="187">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
         </state>
       </provider>
     </entry>

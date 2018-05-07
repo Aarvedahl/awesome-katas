@@ -24,6 +24,21 @@ The fifth line of input contains an integer 0, 1, 2, or 3 that denotes a left, u
 
  */
 
+/*
+Rotate by +90:
+
+    Transpose
+    Reverse each row
+
+Rotate by -90:
+
+    Reverse each row
+    Transpose
+
+ */
+
+// Can only merge once per swipe, need to adjust this
+// Either own boolean array for this or a hashmap
 public class NumGame {
 
     Scanner sc = new Scanner(System.in);
@@ -64,10 +79,6 @@ public class NumGame {
         }
     }
 
-    private void writeOutput(int[][] finalList) {
-    }
-
-
     public int[][] performMove(int move, int[][] numbers) {
         int[][] result = new int[4][4];
         if (move == 0) {
@@ -84,16 +95,98 @@ public class NumGame {
                     }
                 }
             }
+        } else if(move == 1) {
+            int[][] transposed = transposeMatrix(numbers);
+           // print2(transposed);
+            for(int h=0; h<transposed.length; h++) {
+                for(int i=0; i<transposed.length; i++) {
+                    for (int j = 0; j < transposed[i].length; j++) {
+                        if (j < 3) {
+                            if (transposed[i][j + 1] == 0) {
+                                transposed[i][j + 1] = transposed[i][j];
+                                transposed[i][j] = 0;
+                            } else if (transposed[i][j + 1] == transposed[i][j]) {
+                                transposed[i][j + 1] += transposed[i][j];
+                                transposed[i][j] = 0;
+                            }
+                        }
+                    }
+                }
+            }
+            int [][] tmp = transposeMatrix(transposed);
+            int[][]tmp1 = transposeMatrix(tmp);
+            print2(tmp1);
+
+            // numbers = transposeMatrix(transposed);
+        } else if(move == 2) {
+            for(int i = 0; i<numbers.length; i++) {
+                for(int j = 0; j<numbers[i].length; j++) {
+                    if (j < 3) {
+                        if (numbers[i][j + 1] == 0) {
+                            numbers[i][j + 1] = numbers[i][j];
+                            numbers[i][j] = 0;
+                        } else if (numbers[i][j + 1] == numbers[i][j]) {
+                            numbers[i][j + 1] += numbers[i][j];
+                            numbers[i][j] = 0;
+                        }
+                    }
+                }
+               /* for (int j = numbers[i].length - 1; j >= 0; j--) {
+                    if (j > 0) {
+                        if (numbers[i][j - 1] == 0) {
+                            System.out.println("We have a 0");
+                            //numbers[i][j - 1] = numbers[i][j];
+                           // numbers[i][j] = 0;
+                        }
+                    }
+                } */
+            }
         }
-      //  print();
+        print2(numbers);
         return numbers;
     }
 
-    public void print() {
-        for (int i = numbers.length - 1; i >= 0; i--) {
-            for (int j = numbers[i].length - 1; j >= 0; j--) {
-                System.out.println(numbers[i][j]);
+    public void print(int[][] list) {
+        for (int i = list.length - 1; i >= 0; i--) {
+            for (int j = list[i].length - 1; j >= 0; j--) {
+                System.out.println(list[i][j]);
             }
         }
+    }
+
+    public void print2(int[][] list) {
+        for(int i=0; i<list.length; i++) {
+            for(int j=0; j<list[i].length; j++) {
+                System.out.println(list[i][j]);
+            }
+        }
+    }
+
+    public int[][] transposeMatrix(int [][] m){
+        int[][] temp = new int[m[0].length][m.length];
+        for (int i = 0; i < m.length; i++)
+            for (int j = 0; j < m[0].length; j++)
+                temp[j][i] = m[i][j];
+        return temp;
+    }
+
+    public int[][] transposeToRightMatrix(int [][] m){
+        int[][] temp = new int[m[0].length][m.length];
+        for (int i = m.length -1; i <= 0 ; i--)
+            for (int j = m[0].length -1; j <= 0; j--)
+                temp[j][i] = m[i][j];
+        return temp;
+    }
+
+    public int[] reverseArray(int[] result) {
+        int [] tmp = new int[result.length];
+        List<Integer> list = new ArrayList<>();
+        for(int i = result.length -1; i >= 0; i--) {
+            list.add(result[i]);
+        }
+        for(int i = 0; i<list.size(); i++) {
+            tmp[i] = list.get(i);
+        }
+        return tmp;
     }
 }
