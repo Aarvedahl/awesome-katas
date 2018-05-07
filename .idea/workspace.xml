@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71a2c2b-37a3-4e9c-a409-8a9e6d4bf3d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,16 +14,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
+            <state relative-caret-position="376">
+              <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -46,6 +44,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>init</find>
+      <find>System.out</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,8 +71,8 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa2536.38984/sample.in" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix2.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" />
       </list>
     </option>
   </component>
@@ -410,32 +409,11 @@
       <workItem from="1525618682140" duration="4971000" />
       <workItem from="1525629322569" duration="121000" />
       <workItem from="1525701240383" duration="254000" />
-      <workItem from="1525706321606" duration="1814000" />
+      <workItem from="1525706321606" duration="2966000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumGameTest - 2018.05.07 at 17h 52m 28s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumGameTest - 2018.05.07 at 17h 52m 48s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumGameTest - 2018.05.07 at 17h 53m 00s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumGameTest - 2018.05.07 at 17h 53m 51s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumGameTest - 2018.05.07 at 17h 54m 10s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumGameTest - 2018.05.07 at 17h 55m 08s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumGameTest - 2018.05.07 at 19h 07m 05s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumGameTest - 2018.05.07 at 19h 07m 34s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
@@ -445,13 +423,33 @@
     <history-entry file="NumGameTest - 2018.05.07 at 19h 14m 45s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 15m 28s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 15m 58s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 16m 03s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 21m 33s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 22m 08s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 22m 27s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumGameTest - 2018.05.07 at 19h 22m 47s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46310000" />
+    <option name="totallyTimeSpent" value="47462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -828,17 +826,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -131,18 +131,17 @@ public class NumGame {
                         }
                     }
                 }
-               /* for (int j = numbers[i].length - 1; j >= 0; j--) {
+                for (int j = numbers[i].length - 1; j >= 0; j--) {
                     if (j > 0) {
-                        if (numbers[i][j - 1] == 0) {
-                            System.out.println("We have a 0");
-                            //numbers[i][j - 1] = numbers[i][j];
-                           // numbers[i][j] = 0;
+                        if (numbers[i][j] == 0) {
+                            System.out.println(numbers[i][j]);
+                            numbers[i][j] = numbers[i][j - 1];
+                            numbers[i][j - 1] = 0;
                         }
                     }
-                } */
+                }
             }
         }
-        print2(numbers);
         return numbers;
     }
 
