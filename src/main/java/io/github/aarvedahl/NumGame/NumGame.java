@@ -134,7 +134,6 @@ public class NumGame {
                 for (int j = numbers[i].length - 1; j >= 0; j--) {
                     if (j > 0) {
                         if (numbers[i][j] == 0) {
-                            System.out.println(numbers[i][j]);
                             numbers[i][j] = numbers[i][j - 1];
                             numbers[i][j - 1] = 0;
                         }
@@ -169,13 +168,6 @@ public class NumGame {
         return temp;
     }
 
-    public int[][] transposeToRightMatrix(int [][] m){
-        int[][] temp = new int[m[0].length][m.length];
-        for (int i = m.length -1; i <= 0 ; i--)
-            for (int j = m[0].length -1; j <= 0; j--)
-                temp[j][i] = m[i][j];
-        return temp;
-    }
 
     public int[] reverseArray(int[] result) {
         int [] tmp = new int[result.length];
@@ -187,5 +179,13 @@ public class NumGame {
             tmp[i] = list.get(i);
         }
         return tmp;
+    }
+
+    public int[][] rotateLeft(int[][] num) {
+        int[][] tmp = new int[num.length][num.length];
+        for(int i = 0; i<num.length; i++) {
+            tmp[i] = reverseArray(num[i]);
+        }
+        return transposeMatrix(tmp);
     }
 }

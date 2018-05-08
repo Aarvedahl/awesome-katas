@@ -75,4 +75,11 @@ public class NumGameTest {
         assertArrayEquals(num, numGame.reverseArray(result));
     }
 
+    @Test
+    public void rotateLeft() {
+        int[][] num =  {{1, 2}, {3, 4}};
+        int[][] result = {{2, 4}, {1, 3}};
+        assertArrayEquals(result, numGame.rotateLeft(num));
+    }
+
 }
