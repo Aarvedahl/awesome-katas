@@ -15,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="443">
-              <caret line="193" column="19" selection-start-line="193" selection-start-column="19" selection-end-line="193" selection-end-column="19" />
+              <caret line="120" column="42" lean-forward="true" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="88" column="53" lean-forward="true" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
+            <state relative-caret-position="331">
+              <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -73,8 +73,8 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa2536.38984/sample.in" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix2.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" />
       </list>
     </option>
   </component>
@@ -412,14 +412,11 @@
       <workItem from="1525629322569" duration="121000" />
       <workItem from="1525701240383" duration="254000" />
       <workItem from="1525706321606" duration="3283000" />
-      <workItem from="1525768853582" duration="561000" />
+      <workItem from="1525768853582" duration="1000000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumGameTest - 2018.05.07 at 19h 42m 14s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumGameTest - 2018.05.07 at 19h 43m 42s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
@@ -447,9 +444,12 @@
     <history-entry file="NumGameTest - 2018.05.08 at 10h 50m 19s.xml">
       <configuration name="NumGameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NumGameTest - 2018.05.08 at 10h 53m 48s.xml">
+      <configuration name="NumGameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48340000" />
+    <option name="totallyTimeSpent" value="48779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -830,17 +830,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="88" column="53" lean-forward="true" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
-          <caret line="193" column="19" selection-start-line="193" selection-start-column="19" selection-end-line="193" selection-end-column="19" />
+          <caret line="120" column="42" lean-forward="true" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
         </state>
       </provider>
     </entry>

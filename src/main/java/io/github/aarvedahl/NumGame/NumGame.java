@@ -96,28 +96,29 @@ public class NumGame {
                 }
             }
         } else if(move == 1) {
-            int[][] transposed = transposeMatrix(numbers);
-           // print2(transposed);
-            for(int h=0; h<transposed.length; h++) {
-                for(int i=0; i<transposed.length; i++) {
-                    for (int j = 0; j < transposed[i].length; j++) {
-                        if (j < 3) {
-                            if (transposed[i][j + 1] == 0) {
-                                transposed[i][j + 1] = transposed[i][j];
-                                transposed[i][j] = 0;
-                            } else if (transposed[i][j + 1] == transposed[i][j]) {
-                                transposed[i][j + 1] += transposed[i][j];
-                                transposed[i][j] = 0;
-                            }
+            numbers = rotateRight(numbers);
+            for(int i = 0; i<numbers.length; i++) {
+                for(int j = 0; j<numbers[i].length; j++) {
+                    if (j < 3) {
+                        if (numbers[i][j + 1] == 0) {
+                            numbers[i][j + 1] = numbers[i][j];
+                            numbers[i][j] = 0;
+                        } else if (numbers[i][j + 1] == numbers[i][j]) {
+                            numbers[i][j + 1] += numbers[i][j];
+                            numbers[i][j] = 0;
+                        }
+                    }
+                }
+                for (int j = numbers[i].length - 1; j >= 0; j--) {
+                    if (j > 0) {
+                        if (numbers[i][j] == 0) {
+                            numbers[i][j] = numbers[i][j - 1];
+                            numbers[i][j - 1] = 0;
                         }
                     }
                 }
             }
-            int [][] tmp = transposeMatrix(transposed);
-            int[][]tmp1 = transposeMatrix(tmp);
-            print2(tmp1);
-
-            // numbers = transposeMatrix(transposed);
+            numbers = rotateLeft(numbers);
         } else if(move == 2) {
             for(int i = 0; i<numbers.length; i++) {
                 for(int j = 0; j<numbers[i].length; j++) {
@@ -140,6 +141,30 @@ public class NumGame {
                     }
                 }
             }
+        } else if(move == 3) {
+            numbers = rotateLeft(numbers);
+            for(int i = 0; i<numbers.length; i++) {
+                for (int j = 0; j < numbers[i].length; j++) {
+                    if (j < 3) {
+                        if (numbers[i][j + 1] == 0) {
+                            numbers[i][j + 1] = numbers[i][j];
+                            numbers[i][j] = 0;
+                        } else if (numbers[i][j + 1] == numbers[i][j]) {
+                            numbers[i][j + 1] += numbers[i][j];
+                            numbers[i][j] = 0;
+                        }
+                    }
+                }
+                for (int j = numbers[i].length - 1; j >= 0; j--) {
+                    if (j > 0) {
+                        if (numbers[i][j] == 0) {
+                            numbers[i][j] = numbers[i][j - 1];
+                            numbers[i][j - 1] = 0;
+                        }
+                    }
+                }
+            }
+            numbers = rotateRight(numbers);
         }
         return numbers;
     }
@@ -190,9 +215,8 @@ public class NumGame {
     }
 
     public int[][] rotateRight(int[][] num) {
-        int[][] tmp = new int[num.length][num.length];
         int[][] tmp1 = new int[num.length][num.length];
-        tmp = transposeMatrix(num);
+        int[][] tmp = transposeMatrix(num);
         for(int i=0; i<tmp.length; i++) {
             tmp1[i] = reverseArray(tmp[i]);
         }

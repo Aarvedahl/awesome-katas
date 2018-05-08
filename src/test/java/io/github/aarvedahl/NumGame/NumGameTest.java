@@ -46,8 +46,7 @@ public class NumGameTest {
                 {2, 1024, 64, 0},
                 {1024, 0, 0, 0}
         };
-       // System.out.println();
-     //   assertArrayEquals(result, numGame.performMove(1, num));
+        assertArrayEquals(result, numGame.performMove(1, num));
     }
 
     @Test
