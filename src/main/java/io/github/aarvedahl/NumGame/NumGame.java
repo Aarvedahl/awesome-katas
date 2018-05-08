@@ -188,4 +188,14 @@ public class NumGame {
         }
         return transposeMatrix(tmp);
     }
+
+    public int[][] rotateRight(int[][] num) {
+        int[][] tmp = new int[num.length][num.length];
+        int[][] tmp1 = new int[num.length][num.length];
+        tmp = transposeMatrix(num);
+        for(int i=0; i<tmp.length; i++) {
+            tmp1[i] = reverseArray(tmp[i]);
+        }
+        return tmp1;
+    }
 }
