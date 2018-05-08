@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71a2c2b-37a3-4e9c-a409-8a9e6d4bf3d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag/Zigzag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/ZigzagTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,20 +17,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
+      <file leaf-file-name="Zigzag.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag/Zigzag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="120" column="42" lean-forward="true" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
+            <state relative-caret-position="169">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZigzagTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/ZigzagTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumGameTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,7 +100,12 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix2.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ZigZag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/Zigzagtest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag/Zigzag.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/ZigzagTest.java" />
       </list>
     </option>
   </component>
@@ -143,15 +174,6 @@
               <item name="awesome-katas" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesome-katas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aarvedahl" type="462c0819:PsiDirectoryNode" />
-              <item name="NumGame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesome-katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesome-katas" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,6 +199,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aarvedahl" type="462c0819:PsiDirectoryNode" />
               <item name="NumGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome-katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesome-katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aarvedahl" type="462c0819:PsiDirectoryNode" />
+              <item name="Zigzag" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,45 +239,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumGameTest">
+  <component name="RunManager" selected="JUnit.ZigzagTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Matrix" />
-      <module name="awesome--katas" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.aarvedahl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Matrix" />
-      <module name="awesome--katas" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.aarvedahl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="NumGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.NumGame.NumGame" />
-      <module name="awesome--katas" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.aarvedahl.NumGame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Subway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Subway" />
       <module name="awesome--katas" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -295,6 +293,75 @@
       <option name="PACKAGE_NAME" value="io.github.aarvedahl.NumGame" />
       <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.NumGame.NumGameTest" />
       <option name="METHOD_NAME" value="init4Lists" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ZigzagTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="awesome--katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.aarvedahl.Zigzag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.github.aarvedahl.Zigzag" />
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Zigzag.ZigzagTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Zigzagtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="awesome--katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.aarvedahl.Zigzag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.github.aarvedahl.Zigzag" />
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Zigzag.Zigzagtest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Zigzagtest.countSequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="awesome--katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.aarvedahl.Zigzag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.github.aarvedahl.Zigzag" />
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Zigzag.Zigzagtest" />
+      <option name="METHOD_NAME" value="countSequences" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -357,19 +424,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.NumGame" />
-      <item itemvalue="Application.Subway" />
-      <item itemvalue="Application.Matrix" />
       <item itemvalue="JUnit.NumGameTest.init4Lists" />
       <item itemvalue="JUnit.NumGameTest" />
+      <item itemvalue="JUnit.Zigzagtest" />
+      <item itemvalue="JUnit.Zigzagtest.countSequences" />
+      <item itemvalue="JUnit.ZigzagTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZigzagTest" />
+        <item itemvalue="JUnit.Zigzagtest" />
+        <item itemvalue="JUnit.Zigzagtest.countSequences" />
         <item itemvalue="JUnit.NumGameTest" />
         <item itemvalue="JUnit.NumGameTest.init4Lists" />
-        <item itemvalue="Application.NumGame" />
-        <item itemvalue="Application.Matrix" />
-        <item itemvalue="Application.Subway" />
       </list>
     </recent_temporary>
   </component>
@@ -412,44 +479,44 @@
       <workItem from="1525629322569" duration="121000" />
       <workItem from="1525701240383" duration="254000" />
       <workItem from="1525706321606" duration="3283000" />
-      <workItem from="1525768853582" duration="1000000" />
+      <workItem from="1525768853582" duration="4509000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumGameTest - 2018.05.07 at 19h 43m 42s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="Zigzagtest - 2018.05.08 at 12h 00m 08s.xml">
+      <configuration name="Zigzagtest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.08 at 10h 42m 46s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="Zigzagtest - 2018.05.08 at 12h 01m 57s.xml">
+      <configuration name="Zigzagtest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.08 at 10h 45m 10s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="Zigzagtest_countSequences - 2018.05.08 at 12h 02m 04s.xml">
+      <configuration name="Zigzagtest.countSequences" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.08 at 10h 45m 52s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="Zigzagtest_countSequences - 2018.05.08 at 12h 02m 16s.xml">
+      <configuration name="Zigzagtest.countSequences" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.08 at 10h 46m 31s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="Zigzagtest_countSequences - 2018.05.08 at 14h 50m 11s.xml">
+      <configuration name="Zigzagtest.countSequences" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.08 at 10h 47m 13s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="Zigzagtest - 2018.05.08 at 14h 50m 26s.xml">
+      <configuration name="Zigzagtest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.08 at 10h 47m 24s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="Zigzagtest - 2018.05.08 at 14h 51m 32s.xml">
+      <configuration name="Zigzagtest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.08 at 10h 47m 53s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="Zigzagtest - 2018.05.08 at 14h 51m 59s.xml">
+      <configuration name="Zigzagtest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.08 at 10h 50m 19s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="Zigzagtest - 2018.05.08 at 14h 53m 32s.xml">
+      <configuration name="Zigzagtest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumGameTest - 2018.05.08 at 10h 53m 48s.xml">
-      <configuration name="NumGameTest" configurationId="JUnit" />
+    <history-entry file="ZigzagTest - 2018.05.08 at 14h 53m 35s.xml">
+      <configuration name="ZigzagTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48779000" />
+    <option name="totallyTimeSpent" value="52288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -495,24 +562,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Subway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="5" selection-start-line="2" selection-start-column="2" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/StackingCups.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -832,15 +885,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/NumGame/NumGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="120" column="42" lean-forward="true" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
+        <state relative-caret-position="2322">
+          <caret line="157" column="44" selection-start-line="157" selection-start-column="44" selection-end-line="157" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag/Zigzag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/ZigzagTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
