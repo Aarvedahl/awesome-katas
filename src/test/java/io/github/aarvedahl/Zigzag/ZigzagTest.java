@@ -30,7 +30,14 @@ public class ZigzagTest {
 
     @Test
     public void splitList() {
-        
+        List<Integer> numList = Arrays.asList(1, 2, 3, 4, 2);
+        List<List<Integer>> resultList = new ArrayList<>();
+        resultList.add(Arrays.asList(1, 3, 2));
+        resultList.add(Arrays.asList(1, 4, 2));
+        resultList.add(Arrays.asList(2, 3, 2));
+        resultList.add(Arrays.asList(2, 4, 2));
+        resultList.add(Arrays.asList(3, 4, 2));
+        assertEquals(resultList, zigzag.splitList(numList));
     }
 
 }
