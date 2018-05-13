@@ -9,16 +9,29 @@ public class ReversedBinaryNumbers {
         Scanner sc = new Scanner(System.in);
         while(sc.hasNextLong()) {
             long original = sc.nextLong();
-            String reversed = Long.toBinaryString(original);
-            System.out.println(Long.toBinaryString(original));
-            long binary = Long.parseLong(Long.toBinaryString(original));
-            binary = Long.reverseBytes(binary);
-            String binaryString = Long.toString(binary);
-            System.out.println(parseLong(binaryString));
+            String binaryString = Long.toBinaryString(original);
+            String reversed = reverse(binaryString);
+            int decimalValue = Integer.parseInt(reversed, 2);
+            System.out.println(decimalValue);
         }
     }
 
     private static long parseLong(String s) {
         return new BigInteger(s).longValue();
+    }
+
+    public static String reverse(String input){
+        char[] in = input.toCharArray();
+        int begin=0;
+        int end=in.length-1;
+        char temp;
+        while(end>begin){
+            temp = in[begin];
+            in[begin]=in[end];
+            in[end] = temp;
+            end--;
+            begin++;
+        }
+        return new String(in);
     }
 }

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71a2c2b-37a3-4e9c-a409-8a9e6d4bf3d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ReverseBinaryNumbers/ReversedBinaryNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag/Zigzag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag/Zigzag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/ZigzagTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/ZigzagTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ReverseBinaryNumbers/ReversedBinaryNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ReverseBinaryNumbers/ReversedBinaryNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,25 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZigzagTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/ZigzagTest.java">
+      <file leaf-file-name="ReversedBinaryNumbers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ReverseBinaryNumbers/ReversedBinaryNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Zigzag.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag/Zigzag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +74,8 @@
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/NumGame/NumGameTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/Zigzagtest.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/ZigzagTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ReverseBinaryNumbers/ReversedBinaryNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag/Zigzag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ReverseBinaryNumbers/ReversedBinaryNumbers.java" />
       </list>
     </option>
   </component>
@@ -105,7 +92,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="689" />
     <option name="y" value="20" />
     <option name="width" value="974" />
@@ -231,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ZigzagTest">
+  <component name="RunManager" selected="Application.ReversedBinaryNumbers">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -248,29 +235,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="NumGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="awesome--katas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.aarvedahl.NumGame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="io.github.aarvedahl.NumGame" />
-      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.NumGame.NumGameTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="NumGameTest.init4Lists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="awesome--katas" />
@@ -424,8 +388,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ZigzagTest" />
         <item itemvalue="Application.ReversedBinaryNumbers" />
+        <item itemvalue="JUnit.ZigzagTest" />
         <item itemvalue="JUnit.Zigzagtest" />
         <item itemvalue="JUnit.Zigzagtest.countSequences" />
         <item itemvalue="JUnit.NumGameTest.init4Lists" />
@@ -474,13 +438,11 @@
       <workItem from="1525768853582" duration="8539000" />
       <workItem from="1525856085524" duration="67000" />
       <workItem from="1525864685095" duration="3375000" />
+      <workItem from="1526215169149" duration="244000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ZigzagTest - 2018.05.08 at 18h 04m 27s.xml">
-      <configuration name="ZigzagTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ZigzagTest - 2018.05.08 at 18h 08m 23s.xml">
       <configuration name="ZigzagTest" configurationId="JUnit" />
     </history-entry>
@@ -508,12 +470,16 @@
     <history-entry file="ZigzagTest - 2018.05.09 at 16h 59m 17s.xml">
       <configuration name="ZigzagTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ZigzagTest - 2018.05.13 at 14h 41m 44s.xml">
+      <configuration name="ZigzagTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59760000" />
+    <option name="totallyTimeSpent" value="60004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -525,7 +491,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3305174" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3305174" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -541,17 +507,16 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39809927" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3305174" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3305174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -566,6 +531,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20885417" />
       <window_info id="Learn" order="7" />
       <window_info anchor="right" id="Database" order="6" />
@@ -908,18 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ReverseBinaryNumbers/ReversedBinaryNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ADifferentProblem/ADifferentProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -929,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Zigzag/ZigzagTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="126">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -943,6 +897,18 @@
           <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ReverseBinaryNumbers/ReversedBinaryNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
