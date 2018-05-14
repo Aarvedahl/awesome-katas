@@ -1,6 +1,5 @@
 package io.github.aarvedahl.ReverseBinaryNumbers;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class ReversedBinaryNumbers {
@@ -14,10 +13,6 @@ public class ReversedBinaryNumbers {
             int decimalValue = Integer.parseInt(reversed, 2);
             System.out.println(decimalValue);
         }
-    }
-
-    private static long parseLong(String s) {
-        return new BigInteger(s).longValue();
     }
 
     public static String reverse(String input){
