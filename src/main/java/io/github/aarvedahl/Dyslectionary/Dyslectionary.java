@@ -9,15 +9,22 @@ public class Dyslectionary {
 
     public static void main(String[] args) {
         List<List<String>> wordGroups = new LinkedList<>();
-        List<String> group1 = new LinkedList<>();
-        wordGroups.add(group1);
         Scanner scanner = new Scanner(System.in);
+        List<String> group = new LinkedList<>();
+        wordGroups.add(group);
         while(scanner.hasNext()) {
-            System.out.println("Input == " + isNullOrBlank(scanner.nextLine()));
-            if(isNullOrBlank(scanner.nextLine())) {
-                List<String> group = new LinkedList<>();
+            String input = scanner.nextLine();
+            if(isNullOrBlank(input)) {
+                group = new LinkedList<>();
+                wordGroups.add(group);
+                System.out.println(wordGroups.size());
+            } else {
+                group.add(input);
+                System.out.println(wordGroups.size());
             }
         }
+
+        System.out.println(wordGroups.size());
     }
 
     private static boolean isNullOrBlank(String s) {
