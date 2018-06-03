@@ -31,7 +31,7 @@ public class Dyslectionary {
         return (s == null || s.trim().equals(""));
     }
 
-    private List<List<String>> reverseWords(List<List<String>> listWordGroups) {
+    public List<List<String>> reverseWords(List<List<String>> listWordGroups) {
         List<List<String>> wordGroups = new LinkedList<>();
         for (List<String> group : listWordGroups) {
             List<String> newGroup = new LinkedList<>();
@@ -44,7 +44,7 @@ public class Dyslectionary {
         return wordGroups;
     }
 
-    private List<List<String>> sortLists(List<List<String>> listWordGroups) {
+    public List<List<String>> sortLists(List<List<String>> listWordGroups) {
         for (List<String> group : listWordGroups) {
             Collections.sort(group);
         }
