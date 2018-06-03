@@ -25,6 +25,7 @@ public class Dyslectionary {
             }
         }
 
+        
     }
 
     private static boolean isNullOrBlank(String s) {
@@ -49,5 +50,14 @@ public class Dyslectionary {
             Collections.sort(group);
         }
         return listWordGroups;
+    }
+
+    public void printResult(List<List<String>> listWordGroups) {
+        for (List<String> group: listWordGroups) {
+            for(String word: group) {
+                System.out.println(word);
+            }
+            System.out.println("\n");
+        }
     }
 }
