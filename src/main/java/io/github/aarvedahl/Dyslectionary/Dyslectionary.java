@@ -14,25 +14,40 @@ public class Dyslectionary {
         List<String> group = new LinkedList<>();
         wordGroups.add(group);
         while (scanner.hasNext()) {
+            group.add(scanner.next());
+        }
+        System.out.println("No more this");
+        /*while (true) {
+            if(!scanner.hasNext()) {
+                break;
+            }
             String input = scanner.nextLine();
             if (isNullOrBlank(input)) {
                 group = new LinkedList<>();
                 wordGroups.add(group);
-                System.out.println(wordGroups.size());
             } else {
                 group.add(input);
-                System.out.println(wordGroups.size());
             }
         }
-
-        
+        while (scanner.hasNext()) {
+            String input = scanner.nextLine();
+            if (isNullOrBlank(input)) {
+                group = new LinkedList<>();
+                wordGroups.add(group);
+            } else {
+            }
+        } */
+        List<List<String>> reversedWords = reverseWords(wordGroups);
+        List<List<String>> sortWords = sortLists(reversedWords);
+        List<List<String>> originalWords = reverseWords(sortWords);
+        printResult(originalWords);
     }
 
     private static boolean isNullOrBlank(String s) {
         return (s == null || s.trim().equals(""));
     }
 
-    public List<List<String>> reverseWords(List<List<String>> listWordGroups) {
+    public static List<List<String>> reverseWords(List<List<String>> listWordGroups) {
         List<List<String>> wordGroups = new LinkedList<>();
         for (List<String> group : listWordGroups) {
             List<String> newGroup = new LinkedList<>();
@@ -45,14 +60,14 @@ public class Dyslectionary {
         return wordGroups;
     }
 
-    public List<List<String>> sortLists(List<List<String>> listWordGroups) {
+    public static List<List<String>> sortLists(List<List<String>> listWordGroups) {
         for (List<String> group : listWordGroups) {
             Collections.sort(group);
         }
         return listWordGroups;
     }
 
-    public void printResult(List<List<String>> listWordGroups) {
+    public static void printResult(List<List<String>> listWordGroups) {
         for (List<String> group: listWordGroups) {
             for(String word: group) {
                 System.out.println(word);
