@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71a2c2b-37a3-4e9c-a409-8a9e6d4bf3d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Abracadabra/Abracadabra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Carrots/Carrots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Oddities/Oddities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/QuadSelect/QuadSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/TwoStones/TwoStones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Dyslectionary/DyslectionaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Dyslectionary/DyslectionaryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,29 +34,53 @@
       <file leaf-file-name="Dyslectionary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="77" column="1" selection-start-line="10" selection-start-column="4" selection-end-line="77" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dyslectionary2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary2.java">
+      <file leaf-file-name="Abracadabra.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Abracadabra/Abracadabra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DyslectionaryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Dyslectionary/DyslectionaryTest.java">
+      <file leaf-file-name="Carrots.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Carrots/Carrots.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuadSelect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/QuadSelect/QuadSelect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoStones.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/TwoStones/TwoStones.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="2" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Oddities.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Oddities/Oddities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,10 +147,16 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Zigzag/Zigzag.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ReverseBinaryNumbers/ReversedBinaryNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/R2/R2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Dyslectionary/DyslectionaryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Abracadabra/Abracadabra.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Dyslectionary/DyslectionaryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Carrots/Carrots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/QuadSelect/QuadSelect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/TwoStones/TwoStones.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Oddities/Oddities.java" />
       </list>
     </option>
   </component>
@@ -151,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,7 +228,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aarvedahl" type="462c0819:PsiDirectoryNode" />
-              <item name="Dyslectionary" type="462c0819:PsiDirectoryNode" />
+              <item name="QuadSelect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awesome-katas" type="b2602c69:ProjectViewProjectNode" />
@@ -238,8 +273,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,73 +300,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dyslectionary2">
+  <component name="RunManager" selected="Application.Oddities">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Dyslectionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Dyslectionary.Dyslectionary" />
+    <configuration name="Abracadabra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Abracadabra.Abracadabra" />
       <module name="awesome--katas" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.aarvedahl.Dyslectionary.*" />
+          <option name="PATTERN" value="io.github.aarvedahl.Abracadabra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Dyslectionary2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Dyslectionary.Dyslectionary2" />
+    <configuration name="Carrots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Carrots.Carrots" />
       <module name="awesome--katas" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.aarvedahl.Dyslectionary.*" />
+          <option name="PATTERN" value="io.github.aarvedahl.Carrots.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="R2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.R2.R2" />
+    <configuration name="Oddities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Oddities.Oddities" />
       <module name="awesome--katas" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.aarvedahl.R2.*" />
+          <option name="PATTERN" value="io.github.aarvedahl.Oddities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="QuadSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.QuadSelect.QuadSelect" />
       <module name="awesome--katas" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.aarvedahl.QuadSelect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TwoStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.TwoStones.TwoStones" />
+      <module name="awesome--katas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.aarvedahl.TwoStones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DyslectionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="awesome--katas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.aarvedahl.Dyslectionary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="io.github.aarvedahl.Dyslectionary" />
-      <option name="MAIN_CLASS_NAME" value="io.github.aarvedahl.Dyslectionary.DyslectionaryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -384,19 +414,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.R2" />
-      <item itemvalue="Application.Dyslectionary" />
-      <item itemvalue="JUnit.DyslectionaryTest" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Dyslectionary2" />
+      <item itemvalue="Application.Abracadabra" />
+      <item itemvalue="Application.Carrots" />
+      <item itemvalue="Application.QuadSelect" />
+      <item itemvalue="Application.TwoStones" />
+      <item itemvalue="Application.Oddities" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dyslectionary2" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Dyslectionary" />
-        <item itemvalue="JUnit.DyslectionaryTest" />
-        <item itemvalue="Application.R2" />
+        <item itemvalue="Application.Oddities" />
+        <item itemvalue="Application.TwoStones" />
+        <item itemvalue="Application.QuadSelect" />
+        <item itemvalue="Application.Carrots" />
+        <item itemvalue="Application.Abracadabra" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +483,8 @@
       <workItem from="1528118852563" duration="38000" />
       <workItem from="1528119013855" duration="16000" />
       <workItem from="1528133305491" duration="2652000" />
-      <workItem from="1528281783213" duration="969000" />
+      <workItem from="1528281783213" duration="1236000" />
+      <workItem from="1528288260640" duration="2515000" />
     </task>
     <servers />
   </component>
@@ -490,14 +521,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71990000" />
+    <option name="totallyTimeSpent" value="74772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -505,11 +536,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3305174" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3305174" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16302083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16302083" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -519,7 +550,6 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39809927" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -568,52 +598,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="31" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourThought/FourThought.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/FourThought/FourThoughtTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ADifferentProblem/ADifferentProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/FourPartTwo/FourPartTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/ProblemA/ProblemA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -889,40 +877,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="77" column="1" selection-start-line="10" selection-start-column="4" selection-end-line="77" selection-end-column="1" />
+        <state relative-caret-position="1122">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/Dyslectionary/DyslectionaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="362">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/QuadSelect/QuadSelect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="49" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Dyslectionary/Dyslectionary2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Carrots/Carrots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/TwoStones/TwoStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="2" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Abracadabra/Abracadabra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Oddities/Oddities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
