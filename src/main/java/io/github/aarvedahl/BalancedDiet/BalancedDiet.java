@@ -34,11 +34,11 @@ public class BalancedDiet {
                     meal1 += lowest.get(i);
                 }
             }
-            for(int i=highest.size() -1; i>0; i--) {
+            for(int i=highest.size() -1; i>=0; i--) {
                 if(i % 2==0) {
-                    meal2 += lowest.get(i);
+                    meal2 += highest.get(i);
                 } else {
-                    meal1 += lowest.get(i);
+                    meal1 += highest.get(i);
                 }
             }
 
