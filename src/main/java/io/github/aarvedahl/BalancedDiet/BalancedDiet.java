@@ -1,9 +1,6 @@
 package io.github.aarvedahl.BalancedDiet;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class BalancedDiet {
 
@@ -25,24 +22,40 @@ public class BalancedDiet {
 
             Collections.sort(numList);
 
-            List<Integer> lowest = new ArrayList<>(numList.subList(0, (numList.size()/2)));
-            List<Integer> highest = new ArrayList<>(numList.subList(numList.size()/2, numList.size()));
-            for(int i=0; i<lowest.size(); i++) {
-                if(i % 2==0) {
-                    meal2 += lowest.get(i);
-                } else {
-                    meal1 += lowest.get(i);
-                }
-            }
-            for(int i=highest.size() -1; i>=0; i--) {
-                if(i % 2==0) {
-                    meal2 += highest.get(i);
-                } else {
-                    meal1 += highest.get(i);
-                }
-            }
 
             System.out.println(meal1 + " " + meal2);
         }
+    }
+
+    // Return true if there exists a subarray of array with given sum
+    public static boolean subsetSum(int[] A, int n, int sum) {
+        // return true if sum becomes 0 (subset found)
+        if(sum == 0) {
+            return true;
+        }
+
+        // base case: no items left or sum becomes negative
+        if(n<0 || sum <0) {
+            return false;
+        }
+
+        // Case 1. include current item in the subset (A[n] and recurse
+        // for remaining items (n-1) with remaining sum (sum  - A[n])
+        boolean include = subsetSum(A, n-1, sum - A[n]);
+
+        // Case 2. exclude current item n from subset and recurse for
+        // remaining items (n-1)
+        boolean exclude = subsetSum(A, n-1, sum);
+
+        return include || exclude;
+    }
+
+    // Return true if given array A [0..n-1] can be divided into subarrays with equal sum
+    public static boolean partition(int[] A) {
+        int sum = Arrays.stream(A).sum();
+
+        // return true if sum is even and array can be two subarrays with equal sum
+        return (sum & 1) == 0 && subsetSum(A, A.length-1, sum/2);
+
     }
 }
