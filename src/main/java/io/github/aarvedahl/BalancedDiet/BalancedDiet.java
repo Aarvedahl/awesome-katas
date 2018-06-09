@@ -21,8 +21,15 @@ public class BalancedDiet {
             int meal1 = 0, meal2 = 0;
 
             Collections.sort(numList);
+            Collections.reverse(numList);
 
-
+            for(Integer integer: numList) {
+                if (meal1 <= meal2) {
+                    meal1 += integer;
+                } else {
+                    meal2 += integer;
+                }
+            }
             System.out.println(meal1 + " " + meal2);
         }
     }
