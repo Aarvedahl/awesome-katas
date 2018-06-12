@@ -12,3 +12,6 @@ def knapsack(n, C):
         result = max{tmp1, tmp2}
     arr[n][C] = result
     return result
+
+
+knapsack(4, 10)
