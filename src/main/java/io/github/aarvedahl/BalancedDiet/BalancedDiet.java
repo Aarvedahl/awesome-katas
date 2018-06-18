@@ -6,7 +6,6 @@ public class BalancedDiet {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        // En Array istället för lista?
         List<Integer> numList = new ArrayList<>();
         while(scan.hasNextInt()) {
             int times = scan.nextInt();
@@ -20,16 +19,10 @@ public class BalancedDiet {
 
             int meal1 = 0, meal2 = 0;
 
-            Collections.sort(numList);
-            Collections.reverse(numList);
+            for(int i=0; i<numList.size(); i++) {
 
-            for(Integer integer: numList) {
-                if (meal1 <= meal2) {
-                    meal1 += integer;
-                } else {
-                    meal2 += integer;
-                }
             }
+
             System.out.println(meal1 + " " + meal2);
         }
     }

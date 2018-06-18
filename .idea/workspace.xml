@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71a2c2b-37a3-4e9c-a409-8a9e6d4bf3d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Datum/Datum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Knapsack/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Knapsack/Knapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BalancedDiet/BalancedDiet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BalancedDiet/BalancedDiet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,26 +19,17 @@
       <file leaf-file-name="BalancedDiet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BalancedDiet/BalancedDiet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Knapsack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Knapsack/Knapsack.java">
+      <file leaf-file-name="Datum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Datum/Datum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Abracadabra.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Abracadabra/Abracadabra.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -103,10 +95,11 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/QuadSelect/QuadSelect.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/TwoStones/TwoStones.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Oddities/Oddities.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BalancedDiet/BalancedDiet.java" />
         <option value="$PROJECT_DIR$/src/main/python/knapsack/knapsack.py" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Knapsack/Knapsack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BalancedDiet/BalancedDiet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Datum/Datum.java" />
       </list>
     </option>
   </component>
@@ -136,8 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,7 +169,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aarvedahl" type="462c0819:PsiDirectoryNode" />
-              <item name="Knapsack" type="462c0819:PsiDirectoryNode" />
+              <item name="Datum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awesome-katas" type="b2602c69:ProjectViewProjectNode" />
@@ -239,7 +230,9 @@
         </subPane>
       </pane>
       <pane id="Course" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,6 +456,9 @@
       <workItem from="1528796410854" duration="1691000" />
       <workItem from="1528821265167" duration="670000" />
       <workItem from="1528894441431" duration="2534000" />
+      <workItem from="1528897340736" duration="34000" />
+      <workItem from="1528963342419" duration="62000" />
+      <workItem from="1529335338849" duration="1553000" />
     </task>
     <servers />
   </component>
@@ -499,38 +495,39 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97297000" />
+    <option name="totallyTimeSpent" value="98946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39809927" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3305174" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16302083" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16302083" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39809927" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -580,13 +577,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/github/aarvedahl/romanNumerals/RomanNumeralsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -878,13 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BalancedDiet/BalancedDiet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/python/knapsack/knapsack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -899,20 +882,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Knapsack/Knapsack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/BalancedDiet/BalancedDiet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Datum/Datum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
