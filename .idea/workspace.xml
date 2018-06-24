@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a71a2c2b-37a3-4e9c-a409-8a9e6d4bf3d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Streams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Streams.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="Streams.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Streams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="663">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -467,7 +466,7 @@
       <workItem from="1528963342419" duration="62000" />
       <workItem from="1529335338849" duration="2226000" />
       <workItem from="1529772913517" duration="2373000" />
-      <workItem from="1529848345974" duration="519000" />
+      <workItem from="1529848345974" duration="859000" />
     </task>
     <servers />
   </component>
@@ -504,7 +503,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102511000" />
+    <option name="totallyTimeSpent" value="102851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -905,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/aarvedahl/Streams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="663">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
